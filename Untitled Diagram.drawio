@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-20T14:08:11.077Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="xjpHzFXvQPPk3YeKrGk2" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-21T12:30:26.061Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="xPFmuxyvJ7VWAY_C4AKQ" version="13.8.0" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,12 +297,17 @@
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-62" value="创建展期申请（rollover_apply），创建支付记录（pay_record_log）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="775" y="970" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-63" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-63" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_ZLM1Tjx3E2u8hPl-qal-97">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="809.7999999999997" y="1029.9999999999998" as="sourcePoint" />
             <mxPoint x="320" y="1050" as="targetPoint" />
             <Array as="points">
               <mxPoint x="810" y="1050" />
+              <mxPoint x="690" y="1050" />
+              <mxPoint x="690" y="735" />
+              <mxPoint x="560" y="735" />
+              <mxPoint x="550" y="730" />
+              <mxPoint x="540" y="735" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -400,46 +405,142 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-97" value="根据第三方支付获取还款码" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1030" width="120" height="50" as="geometry" />
+          <mxGeometry x="195" y="710" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-98" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_ZLM1Tjx3E2u8hPl-qal-93">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="254.99999999999997" y="659.9999999999999" as="sourcePoint" />
-            <mxPoint x="255.06999999999996" y="1030.4026845637584" as="targetPoint" />
+            <mxPoint x="255" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-99" value="新建收款订单timepay_repay_order" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1120" width="140" height="50" as="geometry" />
+          <mxGeometry x="185" y="800" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-100" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_ZLM1Tjx3E2u8hPl-qal-97" target="_ZLM1Tjx3E2u8hPl-qal-99">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="1080" as="sourcePoint" />
-            <mxPoint x="350" y="1030" as="targetPoint" />
+            <mxPoint x="295" y="760" as="sourcePoint" />
+            <mxPoint x="345" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-101" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="259.86" y="1170" as="sourcePoint" />
-            <mxPoint x="259.86" y="1210" as="targetPoint" />
+            <mxPoint x="254.86" y="850" as="sourcePoint" />
+            <mxPoint x="254.86" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-102" value="通道交付记录保存（timepay_channel_record）" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1210" width="160" height="50" as="geometry" />
+          <mxGeometry x="175" y="890" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-103" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="259.86" y="1260.0000000000002" as="sourcePoint" />
-            <mxPoint x="259.86" y="1300.0000000000002" as="targetPoint" />
+            <mxPoint x="254.86" y="940.0000000000002" as="sourcePoint" />
+            <mxPoint x="254.86" y="980.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-106" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_ZLM1Tjx3E2u8hPl-qal-87">
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-106" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ZLM1Tjx3E2u8hPl-qal-87" target="_ZLM1Tjx3E2u8hPl-qal-108">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="539.9999999999999" as="sourcePoint" />
             <mxPoint x="553" y="1084" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1090" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_ZLM1Tjx3E2u8hPl-qal-107" value="更新pay_record_log记录还款码、过期时间、支付处理结果" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1300" width="160" height="50" as="geometry" />
+          <mxGeometry x="175" y="980" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-108" value="返回还款码" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1070" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-109" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.88" y="1030.0000000000002" as="sourcePoint" />
+            <mxPoint x="254.88" y="1070.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-112" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="250" as="sourcePoint" />
+            <mxPoint x="980" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-113" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="250" as="sourcePoint" />
+            <mxPoint x="80" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-115" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-119" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-121" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_ZLM1Tjx3E2u8hPl-qal-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="250" as="sourcePoint" />
+            <mxPoint x="870" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-122" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="350" as="sourcePoint" />
+            <mxPoint x="820" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-123" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="635" as="sourcePoint" />
+            <mxPoint x="900" y="634.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-124" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="705" as="sourcePoint" />
+            <mxPoint x="900" y="704.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-125" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-126" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="550" as="sourcePoint" />
+            <mxPoint x="920" y="549.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-127" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-128" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-129" value="" style="endArrow=none;html=1;exitX=0.008;exitY=0.399;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_ZLM1Tjx3E2u8hPl-qal-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="249.99999999999974" as="sourcePoint" />
+            <mxPoint x="80" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-130" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="229.99999999999997" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-136" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80.00000000000006" y="390" as="sourcePoint" />
+            <mxPoint x="80.00000000000006" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-137" value="不符合还款条件" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-139" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979.9999999999999" y="709.9999999999999" as="sourcePoint" />
+            <mxPoint x="979.9999999999999" y="749.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZLM1Tjx3E2u8hPl-qal-140" value="不符合展期条件" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="940" y="750" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
